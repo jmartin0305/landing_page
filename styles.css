@@ -1,7 +1,5 @@
 * {
     font-family: Helvetica, sans-serif;
-
-
 }
 
 header{
@@ -16,14 +14,11 @@ header{
 header .logo{
     margin-left: 200px;
     padding: 10px;
-
-
 }
 
 .links {
     display: flex;
     margin-right: 40px;
-
 }
 
 .links a{
@@ -48,7 +43,6 @@ button{
 }
 
 .section-1{
-
     font-size: x-large;
     background-color: #1F2937;
     color: #F9FAF8;
@@ -68,7 +62,6 @@ button{
 
 
 .section-2{
-
     font-size: x-large;
     align-items: center;
     justify-content: center;
@@ -81,18 +74,15 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
-  .section-2 .image img{
-
+.section-2 .image img{
     border-radius: 30px;
     border: 3px solid #3882F6;
     float: left;
     width:  200px;
     height: 200px;
     object-fit: cover;
-
 }
 
 
@@ -101,12 +91,14 @@ button{
     font-size: x-large;
     background-color: #E5E7EB;
     font-size: 24px;
+    font-weight: lighter;
     font-style: italic;
     color: #1F2937;
     align-items: center;
     flex-direction: column;
     display: flex;
 }
+
 .section-3 .quote{
     padding-top: 40px;
     width: 600px;
@@ -116,7 +108,6 @@ button{
 .section-3 .quote .author{
     font-weight: bold;
     text-align: end;
-
 }
 
 
