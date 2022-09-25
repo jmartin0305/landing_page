@@ -55,7 +55,16 @@ button{
     align-items: center;
     justify-content: center;
     display: flex;
+    /* gap: 20px; */
 }
+
+/* .section-1 .container1{
+
+}
+
+.section-1 .container2{
+
+} */
 
 
 .section-2{
@@ -95,10 +104,21 @@ button{
     font-style: italic;
     color: #1F2937;
     align-items: center;
-    justify-content: center;
+    flex-direction: column;
     display: flex;
+}
+.section-3 .quote{
+    padding-top: 40px;
+    width: 600px;
+    text-align: center;
+}
+
+.section-3 .quote .author{
+    font-weight: bold;
+    text-align: end;
 
 }
+
 
 .section-4{
     font-size: x-large;
@@ -112,4 +132,5 @@ footer {
     justify-content: center;
     display: flex;
     padding: 1rem;
+    text-align: center;
 }
